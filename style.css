@@ -17,6 +17,8 @@ header, .heading, nav {
 header {
     justify-content: space-between;
     padding: 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .links {
@@ -26,7 +28,16 @@ header {
 
 a {
     text-decoration: none;
+    color: #F9FAF8;
 }
+
+/* Initial Section */
+
+.initial {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
 
 
 
