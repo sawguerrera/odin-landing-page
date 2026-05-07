@@ -16,7 +16,7 @@ header, .heading, nav {
 
 header {
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px 40px;
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -37,6 +37,8 @@ a {
     color: #F9FAF8;
     background-color: #1F2937;
     display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
 }
 
 .text h1 {
@@ -55,8 +57,9 @@ button {
 .image img {
     height: auto;
     width: auto;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 30px;
 }
 
 
