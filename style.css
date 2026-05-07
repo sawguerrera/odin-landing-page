@@ -36,6 +36,7 @@ a {
 .initial {
     color: #F9FAF8;
     background-color: #1F2937;
+    display: flex;
 }
 
 .text h1 {
@@ -50,6 +51,14 @@ button {
     padding: 10px 30px;
     border-radius: 10px;
 }
+
+.image img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 
 
 
