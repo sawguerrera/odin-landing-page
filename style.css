@@ -38,6 +38,18 @@ a {
     background-color: #1F2937;
 }
 
+.text h1 {
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
 
 
 
