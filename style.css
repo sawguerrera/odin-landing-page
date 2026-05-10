@@ -39,7 +39,7 @@ a {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    padding: 0px 40px;
+    padding: 40px 40px;
 }
 
 .text h1 {
@@ -76,7 +76,7 @@ button {
 
 .maincontainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     gap: 20px;
     padding: 40px 80px;
@@ -121,7 +121,10 @@ button {
 .formtitle {
     font-size: 28px;
     font-weight: bold;
-    margin: 0px;
+}
+
+.formtitle p {
+    margin: 0;
 }
 
 .form-content {
