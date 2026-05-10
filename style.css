@@ -65,17 +65,34 @@ button {
 /* Main Body */
 
 .maintitle {
+   text-align: center;
+   font-weight: bold;
+   font-size: 36px;
+   padding: 20px 40px;
+}
+
+.maincontainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+    padding: 0px 40px;
+}
+
+.mainimage p {
+    text-align: center;
+    color: #1F2937;
 }
 
 .mainimage img {
-    height: auto;
-    width: auto;
-    max-width: 200px;
-    max-height: 200px;
+    width: 300px;
+    height: 200px;
+    border-color: #3882F6;
+    border-radius: 20px;
+    border-width: medium;
 }
+
+
 
 
 
