@@ -68,7 +68,7 @@ button {
    text-align: center;
    font-weight: bold;
    font-size: 36px;
-   padding: 20px 40px;
+   padding-top: 40px;
 }
 
 .maincontainer {
@@ -76,7 +76,7 @@ button {
     justify-content: center;
     text-align: center;
     gap: 10px;
-    margin: 10px;
+    padding: 40px 80px;
 }
 
 .maincontainer img {
@@ -86,6 +86,25 @@ button {
     border: 5px solid #3882F6;
 }
 
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 80px;
+}
+
+.quotetext {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoter {
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 
